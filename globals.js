@@ -7,3 +7,6 @@ global.location = {
 
 // Some modules expect userAgent to be a string
 global.navigator.userAgent = 'React Native';
+
+global.crypto = require('react-native-quick-crypto');
+global.Buffer = require('@craftzdog/react-native-buffer').Buffer;
